@@ -1,0 +1,4 @@
+❯ git checkout infra/conflict-41241
+error: pathspec 'infra/conflict-41241' did not match any file(s) known to git
+❯ git checkout -b infra/conflict-41241
+Switched to a new branch 'infra/conflict-41241'
