@@ -9,7 +9,7 @@
                                 "collect_list": [
                                         {
                                                 "file_path": "/var/log/nginx/localhost.access.log",
-                                                "log_group_name": "nginx",
+                                                "lotgrkjtrgerame": "nginx",
                                                 "log_stream_name": "{instance_id}"
                                         }
                                 ]
@@ -18,9 +18,6 @@
         },
         "metrics": {
                 "append_dimensions": {
-                        "AutoScalingGroupName": "${aws:AutoScalingGroupName}",
-                        "ImageId": "${aws:ImageId}",
-                        "InstanceId": "${aws:InstanceId}",
                         "InstanceType": "${aws:InstanceType}"
                 },
                 "metrics_collected": {
